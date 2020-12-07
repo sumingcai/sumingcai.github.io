@@ -1,11 +1,11 @@
 # Site settings
-title: etmoon's world
-SEOTitle: etmoon blog
-header-img: img/home-bg-o.jpg
-email: 447479760@qq.com
-description: "etmoon blog | Software Engineer"
+title: August Blog
+SEOTitle: 八月博客 | August Blog
+header-img: img/post-bg-rwd.jpg
+email: suksli@163.com
+description: "八月博客 | Software Engineer"
 keyword: "C++,互联网,后端"
-url: "https://etmoon.gitee.io"            # your host, for absolute URL
+url: "https://suksli.gitee.io"          # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,12 +13,12 @@ future: true
 
 # SNS settings
 RSS: true
-# weibo_username:     huxpro
-# zhihu_username:     huxpro
-github_username:    etmoon
+weibo_username:     suksli
+zhihu_username:     suksli
+github_username:    suksli
 # twitter_username:   huxpro
-#facebook_username:  huxpro
-linkedin_username:  etmoon
+# facebook_username:  huxpro
+# linkedin_username:  suksli
 
 
 
@@ -59,11 +59,14 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: etmoon
+# disqus_username: etmoon
 
 # Netease settings
 netease_comment: false
 
+# LiveRe setttings
+# You can get your uid from https://livere.com/insight/myCode (General web site)
+livere_uid: MTAyMC8yODk5MC81NTU5
 
 
 # Analytics settings
@@ -101,36 +104,30 @@ page-mathjax: false
 
 
 # Friends
-# friends: [
-#     {
-#     #     title: "Su",
-#     #     href: "http://su.gallery/"
-#     # },{
-#         title: "乱序",
-#         href: "http://mida.re/"
-#     },{
-#         title: "Sherry Wu",
-#         href: "https://xuechundesign.github.io"
-#     },{
-#         title: "Luke 的自留地",
-#         href: "http://hmqk1995.github.io"
-#     },{
-#         title: "Ebn's Blog",
-#         href: "http://ebnbin.com/"
-#     },{
-#         title: "SmdCn's Blog",
-#         href: "http://blog.smdcn.net"
-#     },{
-#         title: "JiyinYiyong",
-#         href: "http://tiye.me/"
-#     },{
-#         title: "David's Game",
-#         href: "https://www.ruoyaowu.com/"
-#     },{
-#         title: "DHong Say",
-#         href: "http://dhong.co"
-#     },{
-#         title: "尹峰以为",
-#         href: "http://ingf.github.io/"
-#     }
-# ]
+friends: [
+    {
+    #     title: "Hux Blog",
+    #     href: "http://su.gallery/"
+    # },{
+        title: "Caedmom Blog",
+        href: "http://huangxuan.me/"
+    },{
+        title: "小马哥的技术博客",
+        href: "https://mercyblitz.github.io/"
+    },{
+        title: "CodeKissYoung Blog",
+        href: "https://blog.codekissyoung.com/"
+    },{
+        title: "MINT FORGE",
+        href: "https://kevinjobs.github.io/"
+    },{
+        title: "丁小未",
+        href: "http://dingxiaowei.cn/"
+    },{
+        title: "码志",
+        href: "https://mazhuang.org/"
+    },{
+        title: "崔庆才的个人站点",
+        href: "https://cuiqingcai.com/"
+    }
+]
