@@ -106,11 +106,11 @@ page-mathjax: false
 # Friends
 friends: [
     {
-    #     title: "Hux Blog",
-    #     href: "http://su.gallery/"
-    # },{
-        title: "Caedmom Blog",
+        title: "Hux Blog",
         href: "http://huangxuan.me/"
+    },{
+        title: "Caedmom Blog",
+        href: "https://caedmom.github.io/"
     },{
         title: "小马哥的技术博客",
         href: "https://mercyblitz.github.io/"
