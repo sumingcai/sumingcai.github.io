@@ -69,6 +69,14 @@ layout: default
 				</div>
 				<!-- livere 评论框 end -->
 				{% endif %}
+
+                {% if site.valine_comment.enable %}
+                <!-- 使用 valine 评论框 start -->
+                <div id="comments">
+                    {% include valine_comment.html %}
+                </div>
+                <!-- 使用 valine 评论框 end -->
+                {% endif %}
             </div>  
 
     <!-- Side Catalog Container -->
@@ -95,7 +103,7 @@ layout: default
                 sidebar-container">
 
                 <!-- Featured Tags -->
-                {% include featured-tags.html bottom=true %}
+                <!-- {% include featured-tags.html bottom=true %} -->
 
                 <!-- Friends Blog -->
                 {% include friends.html %}
@@ -161,9 +169,6 @@ layout: default
 <!-- livere 公共JS代码 end -->
 {% endif %}
 
-<!-- 使用 valine 评论框 -->
-{% include valine_comment.html %}
-<!-- 使用 valine 评论框 end -->
 
 {% if site.anchorjs %}
 <!-- async load function -->
