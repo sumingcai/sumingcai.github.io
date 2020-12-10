@@ -2,10 +2,10 @@
 title: August Blog
 SEOTitle: 八月博客 | August Blog
 header-img: img/post-bg-rwd.jpg
-email: suksli@163.com
+email: sumcai@163.com
 description: "八月博客 | Software Engineer"
 keyword: "C++,互联网,后端"
-url: "https://suksli.gitee.io"          # your host, for absolute URL
+url: "https://sumcai.github.io"          # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,9 +13,9 @@ future: true
 
 # SNS settings
 RSS: true
-weibo_username:     suksli
-zhihu_username:     suksli
-github_username:    suksli
+weibo_username:     sumcai
+zhihu_username:     sumcai
+github_username:    sumcai
 # twitter_username:   huxpro
 # facebook_username:  huxpro
 # linkedin_username:  suksli
