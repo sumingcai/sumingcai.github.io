@@ -66,8 +66,13 @@ netease_comment: false
 
 # LiveRe setttings
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-livere_uid: MTAyMC8yODk5MC81NTU5
+# livere_uid: MTAyMC8yODk5MC81NTU5
 
+valine_comment: 
+  enable: true
+  leancloud_appid: Cd26RI8uft3yIkXRTKTvVWe7-gzGzoHsz
+  leancloud_appkey: UVDInqUyF8cl6EaRA58snH7h
+  placeholder: Say something...
 
 # Analytics settings
 # Baidu Analytics 
