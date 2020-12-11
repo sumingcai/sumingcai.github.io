@@ -1,6 +1,6 @@
 name: Sync
 
-on: [ psuh ]
+on: page_build
 
 jobs:
   build:
