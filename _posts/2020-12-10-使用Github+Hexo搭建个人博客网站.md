@@ -12,8 +12,6 @@ tags: [Hexo, blog, 工具]
 
 下载 安装nodejs：`https://nodejs.org/en/`，安装直接点击下一步、下一步就可以了。
 
-
-
 ## 二、安装 Hexo 博客框架
 
 官方源下载东西慢，国内切换到淘宝源
@@ -22,25 +20,20 @@ tags: [Hexo, blog, 工具]
 npm config set registry http://registry.npm.taobao.org
 ```
 
-
-
 安装Hexo
 
 ```shell
 npm install -g hexo-cli
 ```
 
-
-
 ## 三、使用 Hexo 搭建博客（本地启动）
 
 创建blog目录，cmd进入blog目录，执行如下指令
 
-
-hexo new [layout] <title> #新建文章，如果title含有空格，则需使用双引号包围 
-hexo clean #清理缓存文件 
-hexo generate	#生成静态文件 
-hexo server #启动本地服务器
+`hexo new [layout] <title>` #新建文章，如果title含有空格，则需使用双引号包围 
+`hexo clean` #清理缓存文件 
+`hexo generate`	#生成静态文件 
+`hexo server` #启动本地服务器
 
 - 初始化博客
 
@@ -48,23 +41,17 @@ hexo server #启动本地服务器
   hexo init
   ```
 
-  
-
 - 新建文章
 
   ```shell
   hexo new <title>
   ```
 
-  
-
 - 清理缓存
 
-  ```
+  ```shell
   hexo clean
   ```
-
-  
 
 - 生成静态文件
 
@@ -72,23 +59,17 @@ hexo server #启动本地服务器
   hexo generate
   ```
 
-  
-
 - 启动本地服务器
 
   ```shell
   hexo server 
   ```
 
-
-
 - 访问网站查看 http://localhost:4000
 
-  
-  
 - 国内网速较慢时，可使用如下
 
-  ```
+  ```shell
   git clone https://gitee.com/sumcai/hexo-starter.git  blog
   cd blog
   npm config set registry http://registry.npm.taobao.org
@@ -97,8 +78,6 @@ hexo server #启动本地服务器
   hexo s
   ```
   
-  
-
 ## 四、部署到远端（Github）上公开使用
 
 安装hexo-deployer
@@ -106,8 +85,6 @@ hexo server #启动本地服务器
 ```shell
 npm install --save hexo-deployer-git
 ```
-
-
 
 在`_config.ymal`文件里增加git仓库地址
 
@@ -118,29 +95,33 @@ deploy:
   branch: master
 ```
 
-
-
 部署到远端
 
 ```shell
 hexo d
 ```
 
-
-
 ## 五、切换主题
 
 使用如下指令下载主题到themes目录下
 
-```
+```shell
 git clone https://gitee.com/maoxuner/hexo-theme-hexone.git themes/one
 ```
 
-
-
 修改`_config.yml`文件切换主题:
 
-```
+```shell
 theme: one
 ```
 
+## 六、问题
+
+主题不显示，只有信息`extends '_layout.swig'`
+![图 1](../assets/image-20210104190932921.png)  
+
+原因是hexo在新版本把swig删了，需要手动安装:
+
+```cmd
+npm i hexo-renderer-swig
+```
