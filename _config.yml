@@ -70,8 +70,8 @@ netease_comment: false
 
 valine_comment: 
   enable: true
-  leancloud_appid: Cd26RI8uft3yIkXRTKTvVWe7-gzGzoHsz
-  leancloud_appkey: UVDInqUyF8cl6EaRA58snH7h
+  leancloud_appid: U24f6pItYFGdkT6HD1gDFtGQ-9Nh9j0Va
+  leancloud_appkey: qng12LPr1OxxkRiFg7VK1AyA
   placeholder: Say something...
 
 # Analytics settings

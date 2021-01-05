@@ -118,7 +118,7 @@ theme: one
 ## 六、问题
 
 主题不显示，只有信息`extends '_layout.swig'`
-![图 1](../assets/image-20210104190932921.png)  
+![图 1](/assets/image-20210104190932921.png)  
 
 原因是hexo在新版本把swig删了，需要手动安装:
 
