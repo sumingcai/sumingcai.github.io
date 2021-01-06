@@ -24,7 +24,14 @@ description: "这里将深入探讨相关技术，包括行业动态，架构设
         </div>
     </a>
     <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+        <span class="fa-wrap">
+            <i class="fa fa-clock-o"></i>
+            <span>{{ post.date | date: "%Y-%m-%d" }}</span>
+        </span>
+        <span class="fa-wrap">
+            <i class="fa fa-tags" aria-hidden="true"> {{ post.tags | join: ', ' }} </i>
+        </span>
+        <!-- Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }} -->
     </p>
 </div>
 <hr>
