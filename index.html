@@ -28,14 +28,22 @@ description: "这里将深入探讨相关技术，包括行业动态，架构设
             <i class="fa fa-clock-o"></i>
             <span>{{ post.date | date: "%Y-%m-%d" }}</span>
         </span>
-        <span class="fa-wrap">
+        <span class="fa-wrap-font">
             <i class="fa fa-tags" aria-hidden="true"> {{ post.tags | join: ', ' }} </i>
         </span>
-        <!-- Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }} -->
+        <span id="{{ post.url }}" class="leancloud-visitors fa-wrap" data-flag-title="{{ post.title }}">
+            <i class="fa fa-eye" aria-hidden="true"></i>
+            <i class="leancloud-visitors-count"></i>
+        </span>
     </p>
 </div>
 <hr>
 {% endfor %}
+
+<!-- 用valine接收阅读统计 -->
+{% if site.valine_comment.enable %}
+    {% include valine_comment.html %}
+{% endif %}
 
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}
