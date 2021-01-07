@@ -117,16 +117,19 @@ friends: [
         title: "三颗豆子",
         href: "http://www.bewindoweb.com/"
     },{
-        title: 一极乐,
+        title: "Sanarous's Blog",
+        href: "https://bestzuo.cn/links"
+    },{
+        title: "一极乐",
         href: "https://yijile.com/"
     },{
-        title: Hello Alili,
+        title: "Hello Alili",
         href: "https://alili.tech/"
     },{
-        title: Geniucker's Blog,
+        title: "Geniucker's Blog",
         href: "https://geniucker.js.org/"
     },{
-        title: Deserts,
+        title: "Deserts",
         href: "https://deserts.io/"
     },{
         title: "Caedmom Blog",
