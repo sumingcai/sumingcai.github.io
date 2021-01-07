@@ -123,6 +123,9 @@ friends: [
         title: Hello Alili,
         href: "https://alili.tech/"
     },{
+        title: Geniucker's Blog,
+        href: "https://geniucker.js.org/"
+    },{
         title: "Caedmom Blog",
         href: "https://caedmom.github.io/"
     },{
