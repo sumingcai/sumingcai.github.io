@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello August"
 header-style: text 
-tags: [工具, 软件]
+tags: [杂谈]
 ---
 
 ## 博客开通

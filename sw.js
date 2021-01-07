@@ -21,7 +21,6 @@ const PRECACHE_LIST = [
   "./js/snackbar.js",
   "./js/Valine.min.js",
   "./js/av-min.js",
-  "./img/icon_wechat.png",
   "./img/avatar.jpg",
   "./img/bg.jpg",
   "./img/404-bg.jpg",

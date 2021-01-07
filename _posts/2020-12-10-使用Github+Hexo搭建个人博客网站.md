@@ -3,7 +3,7 @@ layout: post
 title:  "用Github+Hexo搭建个人博客"
 author: "sumcai"
 header-style: text 
-tags: [blog, hexo]
+tags: [website, hexo]
 ---
 
 继上篇【使用Github+Jekyll搭建个人博客网站】，因为再windows平台安装Jekyll相当繁琐，而且经常出现安装失败的情况，这种情况，与力求简单快速高效的时代主题相悖，大家都需要一种简单高效快速的搭建博客方案，此时Hexo横空而出，只需简单安装一个Nodejs，马上就能搭建好博客。
