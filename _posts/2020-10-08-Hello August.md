@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Hello August"
-header-style: text 
 tags: [杂谈]
 ---
 
