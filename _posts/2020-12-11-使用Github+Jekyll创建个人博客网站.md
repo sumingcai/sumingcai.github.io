@@ -81,7 +81,7 @@ jekyll server       #运行服务器
 上面的`jekyll new blog`可能会很慢，使用`jekyll new blog --skip-bundle`跳过bundle环节，然后修改新blog目录中的Gemfile，将第一行改成`source "https://gems.ruby-china.com"`，再运行`bundle install`即可完成项目创建。
 
 访问测试：http://127.0.0.1:4000/
-![](/assets/2020-12-06-16-25-44.png)
+![](/assets/img/2020-12-06-16-25-44.png)
 
 ---
 
