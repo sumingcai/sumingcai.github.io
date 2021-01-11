@@ -20,3 +20,4 @@
 ##### 异常报错
 - **常用软件**
     - [jekyll本地预览报not found](?file=003-异常报错/001-常用软件/0001-jekyll本地预览报not found "jekyll本地预览报not found")
+    - [vscode插件编译报错TS2307](?file=003-异常报错/001-常用软件/0002-vscode插件编译报错TS2307 "vscode插件编译报错TS2307")
