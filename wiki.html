@@ -183,7 +183,16 @@
             <script type="text/javascript" src="amWiki/js/amWiki.scrollbar.js"></script>
             <script type="text/javascript" src="amWiki/js/amWiki.imgsView.js"></script>
             <script type="text/javascript" src="amWiki/js/amWiki.js"></script>
-            <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+            <!-- <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+            <script type="text/x-mathjax-config">
+                MathJax.Hub.Config({
+                    tex2jax: {
+                    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+                    inlineMath: [['$','$']]
+                    }
+                });
+            </script>
             <script type="text/javascript" src="amWiki/js/bwb.js"></script>
         </div>
         <!-- svg -->
